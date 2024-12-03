@@ -5,7 +5,7 @@ public class valida {
    public int validaInt(String input ){
        System.out.println(input);
        while (!sc.hasNextInt()){
-           System.err.println("No es un  nujmero");
+           System.err.println("No es un  numero");
            sc.next();
        }
        int resullt = sc.nextInt();
